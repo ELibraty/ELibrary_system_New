@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELabrary", "ELabrary\ELabrary.csproj", "{E8354DF5-0470-442E-9541-D2B577AA7635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ELabrary", "ELabrary\ELabrary.csproj", "{E8354DF5-0470-442E-9541-D2B577AA7635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELibrary.Data.Models", "ELibrary.Data.Models\ELibrary.Data.Models.csproj", "{EF5A8E57-F886-4C89-B969-673BCD802EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELibrary.Data", "ELibrary.Data\ELibrary.Data.csproj", "{D35A26B8-F206-4908-9613-31DC5E78BE08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELibrary.Services", "ELibrary.Services\ELibrary.Services.csproj", "{635152B9-5EDD-4394-B7D7-8C9ADBF8AFF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELibrary.ViewModels", "ELibrary.ViewModels\ELibrary.ViewModels.csproj", "{87912ECD-6A85-4D36-8FC5-CA23B85F8E11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{E8354DF5-0470-442E-9541-D2B577AA7635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8354DF5-0470-442E-9541-D2B577AA7635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8354DF5-0470-442E-9541-D2B577AA7635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5A8E57-F886-4C89-B969-673BCD802EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5A8E57-F886-4C89-B969-673BCD802EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5A8E57-F886-4C89-B969-673BCD802EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5A8E57-F886-4C89-B969-673BCD802EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35A26B8-F206-4908-9613-31DC5E78BE08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35A26B8-F206-4908-9613-31DC5E78BE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35A26B8-F206-4908-9613-31DC5E78BE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35A26B8-F206-4908-9613-31DC5E78BE08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{635152B9-5EDD-4394-B7D7-8C9ADBF8AFF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635152B9-5EDD-4394-B7D7-8C9ADBF8AFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635152B9-5EDD-4394-B7D7-8C9ADBF8AFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635152B9-5EDD-4394-B7D7-8C9ADBF8AFF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87912ECD-6A85-4D36-8FC5-CA23B85F8E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87912ECD-6A85-4D36-8FC5-CA23B85F8E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87912ECD-6A85-4D36-8FC5-CA23B85F8E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87912ECD-6A85-4D36-8FC5-CA23B85F8E11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
